@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(29, 28, 28);
+                margin:none;
+            }
+            .label {
+            color:white;
+            font-family:verdana;
+            }
+            button {
+                background-color:gray;
+                color:white;
+                border:none;
+                font-family:verdana;
+                height:50px;
+                width:170px;
+                border-radius:10px;
+                cursor:pointer;
+                margin-top:20px;
+                font-size:20px;
+            }
+            button:hover {
+                opacity:0.3;
+            }
+            .menu {
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+            .question_menu {
+                display:none;
+                flex-direction:column;
+                align-items:center;
+                width:100%;
+                height:100%;
+                flex:1;
+            }
+            .question_box {
+                display:flex;
+                height:500px;
+                width:800px;
+                background-color:rgb(151, 147, 147); 
+                color:white;
+                font-family:verdana;
+                text-align:center;
+                border-radius:15px;
+                align-items:center;
+                justify-content: center; 
+            }
+            .container {
+                height:100%;
+                width: 100%;
+                display:none;
+                flex-direction:column;
+                justify-content:flex-start; 
+                margin-top:150px;
+            }
+        </style>
+        <title>Fiszki historyczne</title>
+    </head>
+    <body>
+        <div id="main_menu" class="menu">
+            <h1 class="label">Wybierz kategorię</h1>
+            <p class="label">Test</p>
+            <button onclick="era = 'starożytność'; choice(); draw()">Starożytność</button>
+            <button>Średniowiecze</button>
+            <button>Nowożytność</button>
+            <button>Współczesność</button>
+        </div>
+        <div id="starożytność" class="question_menu">
+            <h1 class="label">Starożytność</h1>
+            <div class="question_box">
+                <h1 id="question">Na jakie grupy dzielono społeczeństwa państw mezopotamskich?</h1>
+            </div>
+            <button id="odpowiedź_button" onclick="toggle_answer()">Odpowiedź</button>
+            <button onclick="draw()">Następne pytanie</button>
+        </div>
+        <div id="menu_button" class="container">
+            <button onclick="menu()">Wybierz epokę</button>
+        </div>
+        <script src="Fiszki historyczne.js"></script>
+    </body>
+</html> 
