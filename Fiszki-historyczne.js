@@ -138,7 +138,7 @@ function toggle_answer() {
 }
 
 function draw() {
-    sel_questions.splice(x, 0)
+    sel_questions.splice(x, 1)
     const headers = document.getElementById("question")
     if (sel_questions.length <= 1) {
         headers.textContent = "Zobaczyłeś wszystkie pytania z tej epoki"
@@ -163,6 +163,7 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
 
 
