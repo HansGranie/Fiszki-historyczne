@@ -1,9 +1,9 @@
 let era = ""
 let x = ""
-let sel_questions = ["1"]
+let sel_questions = []
 
 function choice() {
-    sel_questions = ["1"]
+    sel_questions = []
     for (let i = 0; i < Questions.length; i++) {
         sel_questions.push(Questions[i])
     }
@@ -139,19 +139,12 @@ function toggle_answer() {
 }
 
 function draw() {
-    if (sel_questions[0] == "1") {
-        sel_questions.splice(0, 1)
-    } else {
-        sel_questions.splice(x, 1)
-    }
+    sel_questions.splice(x, 0)
     const headers = document.getElementById("question")
     if (sel_questions.length <= 1) {
         headers.textContent = "Zobaczyłeś wszystkie pytania z tej epoki"
     } else {
         x = randomizer()
-        if (x == 0) {
-            x = randomizer()
-        }
         console.log("Wylosowane pytanie:", x)
         let sel_question = sel_questions[x] 
         headers.textContent = sel_question.question 
@@ -171,4 +164,5 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
