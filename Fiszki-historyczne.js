@@ -3,9 +3,7 @@ let x = ""
 let sel_questions = ["1"]
 
 function choice() {
-    if (sel_questions[0] != "1") {
-        sel_questions = ["1"]
-    } else {
+    sel_questions = ["1"]
     for (let i = 0; i < Questions.length; i++) {
         sel_questions.push(Questions[i])
     }
@@ -173,3 +171,4 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
