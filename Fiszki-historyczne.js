@@ -16,7 +16,6 @@ function choice() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="flex";
 }
-}
 
 const Questions = [
     {question:"Jak nazywało się najstarsze pismo świata?", answer:"Pismo klinowe"},
@@ -164,5 +163,6 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
 
