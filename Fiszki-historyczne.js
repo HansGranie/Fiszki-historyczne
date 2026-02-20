@@ -11,7 +11,7 @@ function choice() {
     }
     const menu = document.getElementById("main_menu") 
     menu.style.display="none";
-    const question_menu = document.getElementById(era)
+    const question_menu = document.getElementById("starożytność")
     question_menu.style.display="flex";
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="flex";
@@ -260,6 +260,7 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
 
 
