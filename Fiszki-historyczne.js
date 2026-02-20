@@ -255,11 +255,12 @@ function draw() {
 function menu() {
     const menu = document.getElementById("main_menu")
     menu.style.display="flex";
-    const question_menu = document.getElementById(era)
+    const question_menu = document.getElementById("starożytność")
     question_menu.style.display="none";
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
 
 
