@@ -15,6 +15,8 @@ function choice() {
     question_menu.style.display="flex";
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="flex";
+    const erlabel = document.getElementById("era_label")
+    erlabel.textContent = era.charAt(0).toUpperCase() + era.slice(1)
 }
 
 const Questions = [
@@ -258,6 +260,7 @@ function menu() {
     const menu_button = document.getElementById("menu_button")
     menu_button.style.display="none";
 }
+
 
 
 
