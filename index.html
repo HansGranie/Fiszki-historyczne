@@ -70,12 +70,12 @@
         <div id="main_menu" class="menu">
             <h1 class="label">Wybierz kategorię</h1>
             <button onclick="era = 'starożytność'; choice(); draw()">Starożytność</button>
-            <button>Średniowiecze</button>
+            <button onclick="era = 'średniowiecze'"; choice(); draw()">Średniowiecze</button>
             <button>Nowożytność</button>
             <button>Współczesność</button>
         </div>
         <div id="starożytność" class="question_menu">
-            <h1 class="label">Starożytność</h1>
+            <h1 class="label" id="era_label">Starożytność</h1>
             <div class="question_box">
                 <h1 id="question">Na jakie grupy dzielono społeczeństwa państw mezopotamskich?</h1>
             </div>
@@ -90,6 +90,7 @@
         <script src="Fiszki-historyczne.js"></script>
     </body>
 </html> 
+
 
 
 
