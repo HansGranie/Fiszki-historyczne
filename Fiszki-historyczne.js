@@ -5,7 +5,7 @@ let sel_questions = ["1"]
 function choice() {
     sel_questions = ["1"]
     for (let i = 0; i < Questions.length; i++) {
-        if (era == "all") {
+        if (era == "wszystkie kategorie") {
             sel_questions.push(Questions[i])
         } else {
         if (Questions[i].era == era) {
