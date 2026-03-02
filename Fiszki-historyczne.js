@@ -5,9 +5,13 @@ let sel_questions = ["1"]
 function choice() {
     sel_questions = ["1"]
     for (let i = 0; i < Questions.length; i++) {
+        if (era == "all") {
+            sel_questions.push(Questions[i])
+        } else {
         if (Questions[i].era == era) {
         sel_questions.push(Questions[i])
         }
+    }
     }
     const menu = document.getElementById("main_menu") 
     menu.style.display="none";
