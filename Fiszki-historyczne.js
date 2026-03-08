@@ -351,7 +351,7 @@ const Questions = [
     {question: "Kiedy trwała bitwa pod Stalingradem?", answer: "Od lipca 1942 do lutego 1943.", era:"współczesność"},
     {question: "Czym była zbrodnia katyńska?", answer: "Egzekucją ok. 20 tys. polskich oficerów przez NKWD.", era:"współczesność"},
     {question: "Na jakich rzekach ustalono zachodnią granicę Polski po II wojnie światowej?", answer: "Na Odrze i Nysie Łużyckiej.", era:"współczesność"},
-    {question: "Jak nazwano plaże, na których wylądowali Brytyjczycy podczas D-Day?", answer: "Gold i Sword.", era:"współczesność"}
+    {question: "Jak nazwano plaże, na których wylądowali Brytyjczycy podczas D-Day?", answer: "Gold i Sword.", era:"współczesność"},
 ]
 
 function randomizer() {
