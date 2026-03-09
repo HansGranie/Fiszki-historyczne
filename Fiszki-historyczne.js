@@ -299,7 +299,7 @@ const Questions = [
     {question: "Kto został zamordowany w Sarajewie?", answer: "Arcyksiążę Franciszek Ferdynand i jego żona.", era:"współczesność"},
     {question: "W jakiej bitwie Francuzi i Brytyjczycy zatrzymali niemiecką ofensywę na Paryż?", answer: "W I bitwie nad Marną (1914).", era:"współczesność"},
     {question: "Jakie nowe rodzaje broni zastosowano w I wojnie?", answer: "Czołgi, gaz bojowy, lotnictwo.", era:"współczesność"},
-    {question: "Kiedy USA przystąpiły do wojny?", answer: "W kwietniu 1917 r.", era:"współczesność"},
+    {question: "Kiedy USA przystąpiły do I wojny światowej?", answer: "W kwietniu 1917 r.", era:"współczesność"},
     {question: "Jaki był skutek rewolucji lutowej (1917) w Rosji?", answer: "Obalenie caratu i utworzenie Rządu Tymczasowego.", era:"współczesność"},
     {question: "Czym była rewolucja październikowa (1917)?", answer: "Przejęciem władzy przez bolszewików w Rosji.", era:"współczesność"},
     {question: "Kto stał na czele bolszewików w czasie rewolucji?", answer: "Włodzimierz Lenin.", era:"współczesność"},
